@@ -1,0 +1,28 @@
+<%- include('../inc/header') %>
+    <div class="contenair">
+        <div class="row">
+            <div class="clo-12">
+                <div class="card">
+                    <div class="card-body">
+                        <form action="/blog/add" method="POST">
+                            <div class="mb-3">
+                                <label class="form-label">Title</label>
+                                <input type="text" class="form-control" name="title" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Author</label>
+                                <input type="text" class="form-control" name="authors" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Content</label>
+                                <textarea name="content" class="form-control" cols="30" rows="10"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <%- include('../inc/footer') %>

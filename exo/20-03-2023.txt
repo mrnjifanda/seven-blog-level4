@@ -1,0 +1,9 @@
+1 => Find how to connect nodejs with native mongoDB
+2 => Create sweet Toto List (
+    * Create task (title, content, date, priority)
+    * View all tasks
+    * View one task by id
+    * Mark task done
+    * Delete task
+    * Sort all tasks by date and priority
+)
